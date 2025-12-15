@@ -1,0 +1,56 @@
+PEŁNE WYNIKI DLA BERT
+loss           : 0.4418
+accuracy       : 0.6500
+f1             : 0.5936
+precision      : 0.4814
+recall         : 0.7742
+tp             : 12429
+tn             : 19173
+fp             : 13392
+fn             : 3624
+runtime        : 873.7076
+samples_per_second: 55.6460
+steps_per_second: 3.4780
+
+
+PEŁNE WYNIKI DLA BioBERT
+loss           : 0.2279
+accuracy       : 0.7817
+f1             : 0.6951
+precision      : 0.6450
+recall         : 0.7536
+tp             : 12098
+tn             : 25907
+fp             : 6658
+fn             : 3955
+runtime        : 880.3627
+samples_per_second: 55.2250
+steps_per_second: 3.4520
+
+PEŁNE WYNIKI DLA BioClinicalBERT
+loss           : 0.3626
+accuracy       : 0.7093
+f1             : 0.6439
+precision      : 0.5406
+recall         : 0.7961
+tp             : 12779
+tn             : 21707
+fp             : 10858
+fn             : 3274
+runtime        : 952.9039
+samples_per_second: 51.0210
+teps_per_second: 3.1890
+
+PEŁNE WYNIKI DLA PubMedBERT
+loss           : 0.2887
+accuracy       : 0.7760
+f1             : 0.6901
+precision      : 0.6352
+recall         : 0.7553
+tp             : 12125
+tn             : 25601
+fp             : 6964
+fn             : 3928
+runtime        : 961.4855
+samples_per_second: 50.5660
+steps_per_second: 3.1610
