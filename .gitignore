@@ -1,0 +1,5 @@
+# Ignoruj foldery systemowe i IDE
+.idea/
+.venv/
+__pycache__/
+*.pyc
