@@ -5,8 +5,9 @@ This repository contains the practical implementation of my engineering thesis. 
 ## Key Features & Engineering Problem Solving
 
 * **Domain Adaptation Analysis:** Conducted a comprehensive comparative study between a general-purpose model (BERT-Base) and highly specialized models (BioBERT, BioClinicalBERT, PubMedBERT) to evaluate the impact of pre-training domains.
-*  **NLP Pipeline Architecture:** * Stage 1 (NER): Fine-tuned models for sequence labeling to identify diseases and chemicals using the IOB tagging scheme.
-    *  Stage 2 (RE): Extracted causal semantic relations (e.g., Chemical-Induced Disease) between identified entities by leveraging entity markers.
+*  **NLP Pipeline Architecture:**
+   * Stage 1 (NER): Fine-tuned models for sequence labeling to identify diseases and chemicals using the IOB tagging scheme.
+   * Stage 2 (RE): Extracted causal semantic relations (e.g., Chemical-Induced Disease) between identified entities by leveraging entity markers.
 * **Handling Highly Imbalanced Data:** Overcame the challenge of dominant negative classes in the RE stage by implementing a custom Focal Loss function and undersampling techniques, significantly stabilizing the training process.
 
 ## Key Results
@@ -17,7 +18,7 @@ This repository contains the practical implementation of my engineering thesis. 
 ## Tech Stack
 
 * Language: Python 3.10.
-* [Deep Learning: PyTorch (tensor operations, custom loss functions).
+* Deep Learning: PyTorch (tensor operations, custom loss functions).
 * NLP Ecosystem: Hugging Face `transformers` & `datasets`.
 * Evaluation & ML: Scikit-learn, `seqeval`.
 
